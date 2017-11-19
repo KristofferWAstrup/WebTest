@@ -1,0 +1,23 @@
+﻿@model WebTest.Models.Products.ProductIndexModel
+
+<h2>Products</h2>
+<b>Showing @Model.Products.Count out of @Model.Products.Count products.</b>
+
+<hr />
+
+<div class="row">
+
+    @{ 
+        foreach(var product in @Model.Products)
+        {
+            <div class="col-sm-3">
+                <a href="Products/Inspect/@product.Id">
+                    <p class="productIndexTitle">@product.Title</p>
+                    <img src="@product.ImagePaths[0]" class="productIndexImage" /> 
+                </a>
+            </div>
+        }
+    }
+
+</div>
+

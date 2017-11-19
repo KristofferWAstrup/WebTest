@@ -1,0 +1,14 @@
+﻿.productIndexImage {
+    width: 100%;
+    height: auto;
+    object-fit: contain;
+}
+
+.productIndexTitle {
+    font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+    font-weight: 500;
+    line-height: 1.1;
+    font-size: 20px;
+    margin-top: 20px;
+    margin-bottom: 10px;
+}

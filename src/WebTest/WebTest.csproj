@@ -182,6 +182,7 @@
     <Compile Include="App_Start\WebApiConfig.cs" />
     <Compile Include="Controllers\API\HelloController.cs" />
     <Compile Include="Controllers\API\ImageController.cs" />
+    <Compile Include="Controllers\API\UserController.cs" />
     <Compile Include="Controllers\HomeController.cs" />
     <Compile Include="Controllers\ProductsController.cs" />
     <Compile Include="Global.asax.cs">
@@ -189,6 +190,7 @@
     </Compile>
     <Compile Include="Infrastructure\Data\Models\Product.cs" />
     <Compile Include="Infrastructure\Data\ProductRepository.cs" />
+    <Compile Include="Models\API\User.cs" />
     <Compile Include="Models\Products\ProductIndexModel.cs" />
     <Compile Include="Models\Products\ProductInspectModel.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
